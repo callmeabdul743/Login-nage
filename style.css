@@ -25,6 +25,7 @@ html, body{
 .nav h1{
     font-size: 30px;
     text-transform: uppercase;
+    font-weight: 800;
 }
 .nav1{
     display: flex;
@@ -49,7 +50,63 @@ html, body{
     background-color: #fff;
 }
 #btn2{
-    background-color: #FF502E;
-    border: 2px solid #FF502E;
+    background-color: orangered;
+    border: 2px solid orangered;
     color: #fff;
+}
+/* main */
+h2{
+    font-size: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 430px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#pic1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#pic2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#pic3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#pic4{
+
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer1 .dot{
+    background-color: orangered;
+    width:8px;
+    height: 8px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+}
+.footer2 i{
+    margin:5px;
+    font-size: 18px;
+    
 }
