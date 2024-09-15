@@ -85,14 +85,10 @@ img{
 #pic3{
     transform: translate(-50%, -50%) rotate(-10deg);
 }
-#pic4{
-
-}
 .footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* background-color: red; */
     padding: 15px 30px;
     display: flex;
     align-items: center;
